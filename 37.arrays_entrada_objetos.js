@@ -22,19 +22,24 @@ while (check) {
 }
 
 console.table(cliente);
+check = true;
 
-console.log("- Informe UMA das opções:");
-console.log("- 1. Listar Carteira do cliente com valor menor que R$ 100,00.");
-console.log("- 2. Listar Clientes em ordem alfabética.");
-console.log("- 3. Sair.");
-let opt = ler.questionInt("=> ");
+do {
+    console.log("- Informe UMA das opções:");
+    console.log("- 1. Listar Carteira do cliente com valor menor que R$ 100,00.");
+    console.log("- 2. Listar Clientes em ordem alfabética.");
+    console.log("- 3. Sair.");
+    let opt = ler.questionInt("=> ");
 
-if (opt == 1) {
-    cli_cart = cliente.filter(c => c.carteira < 100);
-    console.table(cli_cart);
-} else if(opt == 2) {
-    ordem_alfa = cliente.sort((a,b) => a.nome.localeCompare(b.nome));
-    console.table(ordem_alfa);
-} else {
-    console.log("--- Sistema Finalizado! ---");
-}
+    if (opt == 1) {
+        cli_cart = cliente.filter(c => c.carteira < 100);
+        console.table(cli_cart);
+    } else if(opt == 2) {
+        ordem_alfa = cliente.sort((a,b) => a.nome.localeCompare(b.nome));
+        console.table(ordem_alfa);
+    } else {
+        check = false;
+    }    
+} while (check);
+
+console.log("--- Sistema Finalizado! ---");
