@@ -1,4 +1,4 @@
-// Variáveis
+// Variáveis 
 
 var num1 = 12;
 var num1 = 4;

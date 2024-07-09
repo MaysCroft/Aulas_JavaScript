@@ -1,4 +1,4 @@
-// Inicializando Variáveis
+// Inicializando Variáveis 
 
 let num1 = 12;
 let texto = "Texto Exemplo";

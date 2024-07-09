@@ -1,4 +1,4 @@
-// Entrada de Dados Utilizando a Biblioteca readline-sync
+// Entrada de Dados Utilizando a Biblioteca readline-sync 
 
 const ler = require('readline-sync');
 

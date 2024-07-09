@@ -1,4 +1,4 @@
-// Entrada do Usuário Utilizando Prompt no Navegador
+// Entrada do Usuário Utilizando Prompt no Navegador 
 
 var num1 = prompt("- Digite um Número: ");
 var num2 = prompt("- Digite outro Número: ");

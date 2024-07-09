@@ -1,4 +1,4 @@
-// Entrada IF Ternário
+// Entrada IF Ternário 
 
 const ler = require('readline-sync');
 

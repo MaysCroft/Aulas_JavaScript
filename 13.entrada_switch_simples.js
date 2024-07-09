@@ -1,4 +1,4 @@
-// Entrada Usuário Condicional Escolha Caso (Switch Case)
+// Entrada Usuário Condicional Escolha Caso (Switch Case) 
 
 const ler = require('readline-sync');
 

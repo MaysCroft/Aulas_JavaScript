@@ -1,4 +1,4 @@
-// Entrada IF ELSE - Estrutura Condicional
+// Entrada IF ELSE - Estrutura Condicional 
 
 const ler = require('readline-sync');
 

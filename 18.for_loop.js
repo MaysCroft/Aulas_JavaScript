@@ -1,4 +1,4 @@
-// Estrutura de Repetição - FOR
+// Estrutura de Repetição - FOR 
 
 const ler = require('readline-sync');
 

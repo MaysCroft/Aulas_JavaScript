@@ -1,4 +1,4 @@
-// Entrada de Opções Utilizando Condicional OU no Switch Case
+// Entrada de Opções Utilizando Condicional OU no Switch Case 
 
 const ler = require("readline-sync");
 

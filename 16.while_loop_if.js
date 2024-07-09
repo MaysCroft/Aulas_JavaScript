@@ -1,4 +1,4 @@
-// Estrutura de Repetição - WHILE - Condicional IF ELSE
+// Estrutura de Repetição - WHILE - Condicional IF ELSE 
 
 const ler = require('readline-sync');
 
