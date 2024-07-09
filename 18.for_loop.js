@@ -2,7 +2,7 @@
 
 const ler = require('readline-sync');
 
-let x = ler.questionInt("Informe um Numero: ");
+let x = ler.questionInt("- Informe um Numero: ");
 
 // Loop em Ordem Crescente
 for (let i = 0; i <= x; i++) {

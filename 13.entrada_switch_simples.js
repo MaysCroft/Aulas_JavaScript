@@ -17,29 +17,29 @@ console.log("----------------------------------------------");
 switch (opt) {
     case 1:
         result = valor += valor * 0.15;
-        console.log("PIX Acréscimo de 15%");
-        console.log(`Realizando o pagamento via PIX o valor ficará em: R$ ${result}`);
+        console.log("- PIX Acréscimo de 15%");
+        console.log(`- Realizando o pagamento via PIX o valor ficará em: R$ ${result}`);
         break;
 
     case 2:
         result = valor += valor * 0.20;
-        console.log("DÉBITO Acréscimo de 20%");
-        console.log(`Realizando o pagamento via DÉBITO o valor ficará em: R$ ${result}`);
+        console.log("- DÉBITO Acréscimo de 20%");
+        console.log(`- Realizando o pagamento via DÉBITO o valor ficará em: R$ ${result}`);
         break;
 
     case 3:
         result = valor += valor * 0.30;
-        console.log("CRÉDITO Acréscimo de 30%");
-        console.log(`Realizando o pagamento via CRÉDITO o valor ficará em: R$ ${result}`);
+        console.log("- CRÉDITO Acréscimo de 30%");
+        console.log(`- Realizando o pagamento via CRÉDITO o valor ficará em: R$ ${result}`);
         break;
 
     case 4:
         result = valor += valor * 0.10;
-        console.log("DINHEIRO Acréscimo de 10%");
-        console.log(`Realizando o pagamento via DINHEIRO o valor ficará em: R$ ${result}`);
+        console.log("- DINHEIRO Acréscimo de 10%");
+        console.log(`- Realizando o pagamento via DINHEIRO o valor ficará em: R$ ${result}`);
         break;
 
     default:
-        console.log("Opção Inválida!");
+        console.log("--- Opção Inválida! ---");
         break;
 }
