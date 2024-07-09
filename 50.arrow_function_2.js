@@ -14,4 +14,4 @@ let desconto = ler.questionFloat("- Informe qual sera o Desconoto %: ");
 
 let valorDesc = result(valor, desconto).toFixed(2);
 
-console.log(`- O Valor de R$ ${valor} com desconto de ${desconto}% seráde R$ ${valorDesc}`);
+console.log(`- O Valor de R$ ${valor} com desconto de ${desconto}% será de R$ ${valorDesc}`);
