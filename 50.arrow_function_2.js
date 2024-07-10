@@ -10,7 +10,7 @@ const ler = require('readline-sync');
 let result = (valor, desconto) => valor - (valor * (desconto / 100));
 
 let valor = ler.questionFloat("- Digite um Valor: R$ ");
-let desconto = ler.questionFloat("- Informe qual sera o Desconoto %: ");
+let desconto = ler.questionFloat("- Informe qual sera o Desconto %: ");
 
 let valorDesc = result(valor, desconto).toFixed(2);
 
