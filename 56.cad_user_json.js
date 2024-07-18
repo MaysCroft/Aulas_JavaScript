@@ -14,8 +14,6 @@ if (!fs.existsSync(arquivoJSON)) {
 let usersJson = fs.readFileSync(arquivoJSON,'utf-8');
 users = JSON.parse(usersJson);
 
-console.table(users);
-
 const cadastrar = () => {
     let nome = ler.question("- Digite o Nome do Usuario: ");
     let email = ler.questionEMail("- Informe seu Email: ");
@@ -34,4 +32,26 @@ const cadastrar = () => {
     }
 };
 
-cadastrar();
+const exibir = () => {
+
+    users.forEach(user => console.log(
+        `-----------------------------
+         - Nome: ${user.nome} 
+         - E-mail: ${user.email} 
+         - CPF: ${user.cpf}
+        ------------------------------`
+    ));
+};
+
+let opt = ler.questionInt('- 1. CADASTRAR \n- 2. EXIBIR \n- 3. SAIR \n=> ');
+
+if (opt === 1) {
+    cadastrar();
+} else if (opt === 2) {
+    exibir();
+} else {
+    console.log("- Saindo.....");
+    setTimeout(() => {
+        console.log("SAIU!");
+    }, 3000);
+}
